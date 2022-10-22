@@ -71,13 +71,34 @@
     }
 
     .chart img{
-        width: 20em;
-    }    
+        width: 100%;
+        height: auto;
+    }
 
     .about-company{
         padding-top: 1em;
     }
 
+}
+
+/* @media screen and (max-width:500px) and (min-width: 600px) {
+    
+    .chart img{
+        width: 23em;
+    }
+
+    .about-company{
+        background-color: green;
+    }
+} */
+
+@media screen and (max-width:380px) and (min-width: 300px) {
+    
+    /* .chart img{
+        width: max-content;
+        border: 1px solid black;
+    } */
+    
 }
 
 

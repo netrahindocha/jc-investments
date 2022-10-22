@@ -53,6 +53,10 @@
 
     /* COMPANY SECTION */
 
+    .logoSection{
+        margin-bottom: 7em;
+    }
+
     .specialize{
         font-size: 1.4em;
         font-weight: 500;
@@ -70,7 +74,7 @@
         justify-content: center;
         padding: 3em 1em;
     }
-
+    
     .left-align{
         margin: 0;
     }
@@ -82,6 +86,7 @@
     .chart img{
         width: 100%;
         height: auto;
+        padding-top: 2em;
     }
 
     /* OUR VALUES SECTION*/
@@ -90,14 +95,30 @@
         display: flex;
         flex-direction: column;
         border-radius: 8em 0em 8em 0em;
+        padding: 0em 1em;
     }
     
     .growth{
         margin: 7em 0em 0em 0em;
     }
-    
+
     .right-align{
-        padding: 0em 2em 0em 2em;
+        margin: 0em 0em 5em 0em;
     }
 
 }
+
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    
+    .growth img{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 599px){
+    
+    .growth img{
+        width: 60vw;
+    }
+}
+

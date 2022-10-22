@@ -71,8 +71,7 @@ html{
     width: 75%;
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 7em;
-
+    margin-bottom: 10em;
 }
 
 #logo{
@@ -161,6 +160,7 @@ html{
     background-color: transparent;
 }
 
+
 /* OUR VALUES SECTION */
 
 .our-values-section{
@@ -172,7 +172,7 @@ html{
 }
 
 .growth img{
-    width: 80%;
+    width: 25vw;
     height: auto;
 }
 
@@ -188,13 +188,18 @@ html{
     display: flex;
     flex-direction: column;
     padding: 0em 1em;
-    margin: 5em 1.5em;
+    margin: 5em 3em 5em 1.5em;
 }
 
 .para3{
     font-size: 1.2em;
     color: grey;
 }
+
+.our-values{
+    margin-top: 1.5em
+}
+
 
 /* UTILITIES */
 

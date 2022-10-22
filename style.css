@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR SECTION */
+
+.navigation{
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.hamburgerIcon{
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbox ul{
+    display: flex;
+}
+
+.navbox ul li{
+    list-style: none;
+}
+
+.navbox ul li a, #jc-investments{
+    padding: 1em;
+}
+
+.navbox ul li a, #jc-investments a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navbox ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#options{
+    display: none;
+}
+
+.listItems{
+    display: none;
+}
+
+/* UTILITIES */
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.justifyCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenter{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+    
+    .navbox ul li {
+        display: none;
+    }
+
+    .navbox{
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburgerIcon{
+        display: block;
+        border: 2px solid white;
+        background-color: rgb(54, 60, 62);
+        margin: auto;
+        padding: 0.3em 0.5em;
+        border-radius: 0.1em;
+        cursor: pointer;
+    }
+    
+    .listItems{
+        display: block;
+        text-align: center;
+        background-color: rgb(212, 212, 212);
+        color: black;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        text-align: center;
+    }
+
+    .listItems:hover{
+        background-color: rgb(145, 145, 145);
+        color: white;
+    }
+
+    #options{  
+        width: 100%;
+        display: block;
+    }
+
+    #options a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+}
+
+

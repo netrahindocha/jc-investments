@@ -122,19 +122,18 @@ html{
 
 .about-section{
     display: flex;
-    border: 1px solid black;
     padding: 3em 0em 4em 0em;
 }
 
 .chart{
     text-align: center;
-    border: 1px solid black;
 }
 
 .left-align{
     display: flex;
     flex-direction: column;
     padding: 0em 1em;
+    margin: 0em 4em;
 }
 
 .para1{
@@ -142,9 +141,9 @@ html{
 }
 
 .para2{
-    font-size: 1.1em;
-    padding-bottom: 1.5em;
+    font-size: 1.2em;
     color: grey;
+    padding-bottom: 1.5em;
 }
 
 #get-in-touch{
@@ -162,6 +161,40 @@ html{
     background-color: transparent;
 }
 
+/* OUR VALUES SECTION */
+
+.our-values-section{
+    display: flex;
+    align-items: center;
+    background-color: rgb(192, 212, 216);
+    border: none;
+    border-radius: 10em 0em 10em 0em;
+}
+
+.growth img{
+    width: 80%;
+    height: auto;
+}
+
+.growth{
+    width: 60%;
+    text-align: center;
+    margin-left: 5em;
+}
+
+.right-align{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em;
+    margin: 5em 1.5em;
+}
+
+.para3{
+    font-size: 1.2em;
+    color: grey;
+}
 
 /* UTILITIES */
 

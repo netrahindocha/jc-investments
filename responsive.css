@@ -67,38 +67,37 @@
     .about-section{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding: 3em 1em;
     }
 
+    .left-align{
+        margin: 0;
+    }
+    
+    .about-company{
+        padding-top: 1em;
+    }
+    
     .chart img{
         width: 100%;
         height: auto;
     }
 
-    .about-company{
-        padding-top: 1em;
+    /* OUR VALUES SECTION*/
+
+    .our-values-section{
+        display: flex;
+        flex-direction: column;
+        border-radius: 8em 0em 8em 0em;
+    }
+    
+    .growth{
+        margin: 7em 0em 0em 0em;
+    }
+    
+    .right-align{
+        padding: 0em 2em 0em 2em;
     }
 
 }
-
-/* @media screen and (max-width:500px) and (min-width: 600px) {
-    
-    .chart img{
-        width: 23em;
-    }
-
-    .about-company{
-        background-color: green;
-    }
-} */
-
-@media screen and (max-width:380px) and (min-width: 300px) {
-    
-    /* .chart img{
-        width: max-content;
-        border: 1px solid black;
-    } */
-    
-}
-
-

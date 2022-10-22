@@ -1,5 +1,7 @@
 @media screen and (max-width: 1200px) {
     
+    /* NAVBAR SECTION */
+
     .navbox ul li {
         display: none;
     }
@@ -18,14 +20,20 @@
         border-radius: 0.1em;
         cursor: pointer;
     }
+
+    .hamburgerIcon:hover{
+        background-color: black;
+    }
     
     .listItems{
         display: block;
         text-align: center;
         background-color: rgb(212, 212, 212);
         color: black;
-        border-bottom: 1px solid rgb(219, 219, 219);
+        border-bottom: 1px solid rgb(146, 146, 146);
         text-align: center;
+        padding: 1em 0em;
+        font-weight: 500;
     }
 
     .listItems:hover{
@@ -35,7 +43,7 @@
 
     #options{  
         width: 100%;
-        display: block;
+        display: none;
     }
 
     #options a{
@@ -43,6 +51,25 @@
         color: black;
     }
 
+    /* COMPANY SECTION */
+
+    #subscribe-mail{
+        padding: 0.42em 1em;
+    }
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        padding: 3em 1em;
+    }
+
+    .chart img{
+        width: 23em;
+    }    
+
+    .about-company{
+        padding-top: 1em;
+    }
 
 }
 

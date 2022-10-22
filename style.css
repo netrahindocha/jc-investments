@@ -57,6 +57,66 @@ html{
     display: none;
 }
 
+
+/* COMPANY SECTION */
+
+.company-section{
+    padding: 4em 0em;
+    background-color: rgb(192, 212, 216);
+    width: 100%;
+    padding-bottom: 6em;
+}
+
+.logoSection{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 7em;
+
+}
+
+#logo{
+    padding: 2px 2px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+.title{
+    font-size: 5em;
+    margin: 0;
+}
+
+.specialize{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.mail-list{
+    display: flex;
+    align-items: center;
+}
+
+#email{
+    width: 50vw;
+    padding: 0.3em 1em;
+    padding-bottom: 0.4em;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    border-radius: 0.3em 0em 0em 0.3em;
+}
+
+#subscribe-mail{
+    background-color: firebrick;
+    color: white;
+    padding: 0.45em 1em;
+    border: 2px solid firebrick;
+    font-size: 1em;
+}
+
+
 /* UTILITIES */
 
 .flexRow{

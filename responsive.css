@@ -53,9 +53,16 @@
 
     /* COMPANY SECTION */
 
+    .specialize{
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+
     #subscribe-mail{
         padding: 0.42em 1em;
     }
+
+    /* ABOUT SECTION */
 
     .about-section{
         display: flex;
@@ -64,7 +71,7 @@
     }
 
     .chart img{
-        width: 23em;
+        width: 20em;
     }    
 
     .about-company{
